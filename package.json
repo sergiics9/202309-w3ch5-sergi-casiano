@@ -12,7 +12,8 @@
     "test": "jest --watchAll --coverage",
     "test:prod": "jest --watchAll --watchAll=false --coverage --passWithNoTests",
     "prepare": "husky install",
-    "sass": "sass scss:css -w --no-source-map"
+    "sass": "sass scss:css -w --no-source-map",
+    "api": "json-server --watch ./api/db.json"
   },
   "keywords": [],
   "author": "Sergi Casiano",
