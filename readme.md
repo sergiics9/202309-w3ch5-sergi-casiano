@@ -1,22 +1,32 @@
-# Week 3 - Challenge 2
+# Week 3 - Challenge WeekEnd
 
-## GoT DOM
+![Logo Pokémon](pokemon-logo.svg)
 
-Tendrás que completar un interfaz de usuario para que refleje el modelo de datos creado.
+## Pokémon
 
-## Creación del interface
+Esta aplicación tendrá tres páginas:
 
-1. Haz que por cada personaje del array se muestre la ficha correspondiente en el navegador:
+- Todos los pokémon
+- Detalle de pokémon
 
-.En el elemento con clase `emoji` tiene que aparecer uno de estos emojis dependiendo del tipo de personaje: 👑 🗡 🎓 🛡
-.Si el personaje está muerto, su foto debe aparecer cabeza abajo (haz el CSS necesario);
-.En la lista con clase `metadata`, haz que sólo aparezcan los `li` correspondientes al personaje.
+El listado de todos los pokémon se alimentará de la PokéAPI, y deberá ir paginado. El listado incluirá el nombre del pokemon y **su imagen** y deberá ir acompañado de dos botones, para avanzar y retroceder de página. También debe mostrar el total de pokèmon mostrados vs. el total de pokèmon que existen (p.e. 10/1000).
 
-1. Cuando el usuario haga clic en el botón "muere", tiene que cambiar el estado del personaje, y la interfaz debe reflejar el cambio.
-2. Cuando el usuario haga clic en el botón "habla", el elemento con clase `comunicaciones` debe aparecer con el texto y la imagen correspondientes. Haz que este elemento `comunicaciones` tenga la clase `on` durante 2 segundos y luego se le quite.
+El usuario debería poder ir al detalle de un pokémon, donde se le mostrarán más datos.
+A esta página de detalle se llega pasando una id por la URL (la id del pokémon que queremos ver).
 
-Testa las clases del modelo de datos.
+## Extra
 
-### Opción
+Añadir una tercera página:
 
-Puedes crear componentes basados en clases de vanilla TS
+- Mis pokémon
+
+El usuario debe poder añadir los pokémon que quiera a su listado local. El listado de Mis pokémon se alimentará de [una API local]. El usuario debería poder eliminar pokémon de su listado local, y también modificar algún/unos dato/s.
+
+Desde los favoritos, también se puede acceder a la página de detalle.
+
+## Features
+
+Opcional: BEM + sass
+Vite
+HTML semántico
+Testing
