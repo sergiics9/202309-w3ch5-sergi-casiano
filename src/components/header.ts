@@ -16,7 +16,7 @@ export class Header extends Component {
   createTemplate() {
     return ` 
     <header>
-       <img src="./img/pokemon-logo.svg" alt="Header pokemon logo">
+    <img src="./img/pokemon-logo.svg" alt="Header pokemon logo">
     </header>
     `;
   }
