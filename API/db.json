@@ -1,0 +1,13 @@
+{
+  "pokemons": [
+    {
+      "id": 1,
+      "name": "Comer pizza",
+      "owner": "Todos",
+      "isCompleted": true
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
