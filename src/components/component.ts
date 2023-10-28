@@ -1,30 +1,19 @@
+/* eslint-disable no-undef */
+/* eslint-disable no-useless-constructor */
 export abstract class Component {
-  selector: string;
   template!: string;
   element!: Element;
-  constructor(selector: string) {
-    this.selector = selector;
-  }
+  constructor(public selector: string) {}
 
-  // eslint-disable-next-line no-undef
   render(position: InsertPosition = 'beforeend') {
-    const element = document.querySelector(this.selector);
-    if (!element) return;
-    element.insertAdjacentHTML(position, this.template);
-    this.element = element.lastElementChild!;
+    const parentElement = document.querySelector(this.selector);
+    if (!parentElement) throw new Error('Wrong selector');
+    parentElement.insertAdjacentHTML(position, this.template);
+    this.element = parentElement.lastElementChild!;
   }
 
-  clear() {
+  cleanHtml() {
+    if (!this.element) return;
     this.element.outerHTML = '';
   }
 }
-
-//   ------------------- beforebegin
-// <div>
-//   ------------------- afterbegin
-//   ......
-//   <p></p>
-//   .......
-//   ------------------- beforeend
-// </div>
-// ---------------------- afterend

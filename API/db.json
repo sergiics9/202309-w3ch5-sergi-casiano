@@ -1,13 +1,7 @@
 {
-  "pokemons": [
+  "pokemon": [
     {
-      "id": 1,
-      "name": "Comer pizza",
-      "owner": "Todos",
-      "isCompleted": true
+      "id": 1
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

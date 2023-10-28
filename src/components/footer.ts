@@ -14,8 +14,7 @@ export class Footer extends Component {
     <div>
       <img src="./img/footer.png" alt="Footer pokemon logo" width="130" height="100">
       </div>
-      <p>©️ Sergi Casiano | PokéAPI <img class="pokeball-footer" src="./img/pokeball.png" alt="Pokeball" width="20" height="20"> </p>
-      
+      <p>©️ Sergi Casiano | PokéAPI <img class="pokeball-footer" src="./img/pokeball.png" alt="Pokeball" width="25" height="25"> </p>
     </footer>
     `;
   }

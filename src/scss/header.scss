@@ -1,5 +1,13 @@
 header {
+  background: rgb(234, 255, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(234, 255, 0, 1) 29%,
+    rgba(9, 9, 121, 1) 71%
+  );
+  background-image: linear-gradient(blue, yellow);
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-block: 40px;
 }
