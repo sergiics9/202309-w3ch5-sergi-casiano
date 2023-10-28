@@ -1,0 +1,30 @@
+//
+.pokeballs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokeball {
+  position: relative;
+  left: 85px;
+  top: 310px;
+}
+
+.superball {
+  position: relative;
+  left: 35px;
+  top: 573px;
+}
+
+.ultraball {
+  position: relative;
+  left: -18px;
+  top: 830px;
+}
+
+.masterball {
+  position: relative;
+  left: -77px;
+  top: 1115px;
+}
