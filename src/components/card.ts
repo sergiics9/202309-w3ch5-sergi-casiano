@@ -16,7 +16,7 @@ export class Card extends Component {
   }
 
   render() {
-    super.cleanHtml();
+    super.clear();
     this.template = this.createTemplate();
     super.render();
   }

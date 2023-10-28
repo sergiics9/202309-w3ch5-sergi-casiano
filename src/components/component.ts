@@ -12,7 +12,7 @@ export abstract class Component {
     this.element = parentElement.lastElementChild!;
   }
 
-  cleanHtml() {
+  clear() {
     if (!this.element) return;
     this.element.outerHTML = '';
   }
