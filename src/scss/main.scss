@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+$font: 'Press Start 2P';
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -21,7 +23,7 @@ body {
 }
 
 ul {
-  font-family: 'Press Start 2P';
+  font-family: $font;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 0;
@@ -51,4 +53,32 @@ li {
 
 .name {
   color: black;
+}
+
+.blue-arrows {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 3rem;
+  gap: 3rem;
+}
+
+[role='button'] {
+  cursor: pointer;
+}
+
+h2 {
+  display: flex;
+  font-family: $font;
+  justify-content: center;
+}
+
+a {
+  color: #0060b6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00a0c6;
+  text-decoration: none;
+  cursor: pointer;
 }

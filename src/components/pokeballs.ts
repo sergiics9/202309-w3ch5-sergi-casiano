@@ -16,11 +16,11 @@ export class Pokeballs extends Component {
   createTemplate() {
     return ` 
     <div class="pokeballs">
-    <img class="pokeball" src="./img/pokeball2.png" alt="Header pokemon logo" width=60" height="70">
-    <img class="superball" src="./img/superball.png" alt="Header pokemon logo" width="40" height="40">
-    <img class="ultraball" src="./img/ultraball.png" alt="Header pokemon logo" width="70" height="70">
-    <img class="masterball" src="./img/masterball.png" alt="Header pokemon logo" width="60" height="60">
-    </div
+    <img class="pokeball" src="./img/pokeball2.png" alt="pokeball" width=60" height="70">
+    <img class="superball" src="./img/superball.png" alt="pokeball" width="40" height="40">
+    <img class="ultraball" src="./img/ultraball.png" alt="pokeball" width="70" height="70">
+    <img class="masterball" src="./img/masterball.png" alt="pokeball" width="60" height="60">
+    </div>
     `;
   }
 }
