@@ -10,4 +10,10 @@ header {
   justify-content: center;
   align-items: center;
   padding-block: 40px;
+
+  h1 {
+    position: absolute;
+    z-index: 0;
+    color: transparent;
+  }
 }

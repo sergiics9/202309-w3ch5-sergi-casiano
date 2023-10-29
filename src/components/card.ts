@@ -37,9 +37,9 @@ export class Card extends Component {
             <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/${
               pokemon.id
             }.gif" height="120" width="120">
-                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/${
-                          pokemon.id
-                        }.gif" height="120" width="120">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/${
+              pokemon.id
+            }.gif" height="120" width="120">
             <p class="name">${pokemon.name.toUpperCase()}</p>
             </a>
           </li>`

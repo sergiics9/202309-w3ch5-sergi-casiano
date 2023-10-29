@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-useless-constructor */
-export abstract class Component {
+export class Component {
   template!: string;
   element!: Element;
   constructor(public selector: string) {}

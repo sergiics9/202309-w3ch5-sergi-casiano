@@ -56,9 +56,6 @@ li {
 }
 
 .blue-arrows {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 3rem;
   gap: 3rem;
 }
 
@@ -67,9 +64,7 @@ li {
 }
 
 h2 {
-  display: flex;
   font-family: $font;
-  justify-content: center;
 }
 
 a {
@@ -81,4 +76,14 @@ a:hover {
   color: #00a0c6;
   text-decoration: none;
   cursor: pointer;
+}
+
+.count {
+  font-family: $font;
+}
+
+.header-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
