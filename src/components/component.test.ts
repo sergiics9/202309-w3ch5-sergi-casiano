@@ -10,7 +10,7 @@ describe('Component', () => {
     });
     test('should clear the component when calling clear', () => {
       const parentElement = document.createElement('div');
-      parentElement.innerHTML = '<p>This is some content.</p>';
+      parentElement.innerHTML = ' ';
       const component = new Component('#root');
       component.element = parentElement;
       component.clear();

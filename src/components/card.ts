@@ -1,9 +1,9 @@
 import { Component } from './component';
-import { PokemonData } from '../model/pokemon';
+import { Pokemon } from '../model/pokemon';
 import { ApiPokemon } from '../data/api.pokemon';
 
 export class Card extends Component {
-  pokemon!: PokemonData[][];
+  pokemon!: Pokemon[][];
   repository: ApiPokemon;
 
   offset!: number;
