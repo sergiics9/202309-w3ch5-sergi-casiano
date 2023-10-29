@@ -1,6 +1,6 @@
 # Week 3 - Challenge WeekEnd
 
-![Logo Pokémon](./img/pokemon-logo.svg)
+![Logo Pokémon](/img/pokemon-logo.svg)
 
 ## Pokémon
 
