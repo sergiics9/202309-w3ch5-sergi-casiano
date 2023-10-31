@@ -1,7 +1,7 @@
 export class ApiPokemon {
   pokeUrl: string;
   constructor() {
-    this.pokeUrl = 'https://pokeapi.co/api/v2/pokemon?limit=10000&offset=0';
+    this.pokeUrl = 'https://pokeapi.co/api/v2/pokemon?offset=0&limit=20';
   }
 
   async getAllPokemon() {
